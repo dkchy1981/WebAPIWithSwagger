@@ -6,6 +6,7 @@ using Microsoft.IdentityModel.Logging;
 using Microsoft.IdentityModel.Protocols.OpenIdConnect;
 using Microsoft.IdentityModel.Tokens;
 using Microsoft.OpenApi.Models;
+using AspNetCoreRateLimit;
 
 public class Startup
 {
@@ -22,7 +23,29 @@ public class Startup
         services.AddScoped<IProductService, ProductRepository>();
         services.AddEndpointsApiExplorer();
         //services.AddSwaggerGen();
+        services.Configure<IpRateLimitOptions>(options =>
+        {
+            options.EnableEndpointRateLimiting =true;
+            options.StackBlockedRequests = false;
+            options.HttpStatusCode =429;
+            options.RealIpHeader ="X-Real-IP";
+            options.RealIpHeader ="X-ClientId";
+            options.GeneralRules = new List<RateLimitRule>
+            {
+                new RateLimitRule
+                {
+                    Endpoint="*",
+                    Period="5s",
+                    Limit=2
+                }
+            };
+        });
 
+        services.AddSingleton<IIpPolicyStore,MemoryCacheIpPolicyStore>();
+        services.AddSingleton<IRateLimitCounterStore,MemoryCacheRateLimitCounterStore>();
+        services.AddSingleton<IRateLimitConfiguration,RateLimitConfiguration>();
+        services.AddSingleton<IProcessingStrategy,AsyncKeyLockProcessingStrategy>();
+        services.AddInMemoryRateLimiting();
 
         services.AddSwaggerGen(options =>
         {
@@ -120,6 +143,7 @@ public class Startup
         if (env.IsDevelopment())
         {
             app.UseDeveloperExceptionPage();
+            app.UseIpRateLimiting();
         }
     
         // Configure the HTTP request pipeline.
