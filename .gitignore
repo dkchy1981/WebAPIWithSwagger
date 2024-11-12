@@ -104,6 +104,8 @@ StyleCopReport.xml
 *.svclog
 *.scc
 *.dll
+*.exe
+*.cache
 
 
 # Chutzpah Test files
@@ -186,6 +188,8 @@ DocProject/Help/html
 
 # Click-Once directory
 publish/
+bin/ 	
+obj/ 	
 
 # Publish Web Output
 *.[Pp]ublish.xml
