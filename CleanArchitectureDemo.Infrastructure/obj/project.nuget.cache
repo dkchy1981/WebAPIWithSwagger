@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "R/dKkAXqemg=",
+  "dgSpecHash": "/auh5v4vDlc=",
   "success": true,
-  "projectFilePath": "C:\\Self Learning\\Sample4\\CleanArchitectureDemo.Infrastructure\\CleanArchitectureDemo.Infrastructure.csproj",
+  "projectFilePath": "C:\\Self Learning\\Sample4\\webapiwithswagger\\CleanArchitectureDemo.Infrastructure\\CleanArchitectureDemo.Infrastructure.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

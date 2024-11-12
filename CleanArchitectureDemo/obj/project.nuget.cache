@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "dWjkN23xCUA=",
+  "dgSpecHash": "tdj9OBRmsik=",
   "success": true,
-  "projectFilePath": "C:\\Self Learning\\Sample4\\WebAPIWithSwagger\\CleanArchitectureDemo\\CleanArchitectureDemo.csproj",
+  "projectFilePath": "C:\\Self Learning\\Sample4\\webapiwithswagger\\CleanArchitectureDemo\\CleanArchitectureDemo.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Devendra.Choudhary\\.nuget\\packages\\aspnetcoreratelimit\\5.0.0\\aspnetcoreratelimit.5.0.0.nupkg.sha512",
     "C:\\Users\\Devendra.Choudhary\\.nuget\\packages\\microsoft.aspnetcore.authentication.jwtbearer\\3.0.0\\microsoft.aspnetcore.authentication.jwtbearer.3.0.0.nupkg.sha512",

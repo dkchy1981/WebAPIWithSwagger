@@ -1312,11 +1312,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Self Learning\\Sample4\\WebAPIWithSwagger\\CleanArchitectureDemo\\CleanArchitectureDemo.csproj",
+      "projectUniqueName": "C:\\Self Learning\\Sample4\\webapiwithswagger\\CleanArchitectureDemo\\CleanArchitectureDemo.csproj",
       "projectName": "CleanArchitectureDemo",
-      "projectPath": "C:\\Self Learning\\Sample4\\WebAPIWithSwagger\\CleanArchitectureDemo\\CleanArchitectureDemo.csproj",
+      "projectPath": "C:\\Self Learning\\Sample4\\webapiwithswagger\\CleanArchitectureDemo\\CleanArchitectureDemo.csproj",
       "packagesPath": "C:\\Users\\Devendra.Choudhary\\.nuget\\packages\\",
-      "outputPath": "C:\\Self Learning\\Sample4\\WebAPIWithSwagger\\CleanArchitectureDemo\\obj\\",
+      "outputPath": "C:\\Self Learning\\Sample4\\webapiwithswagger\\CleanArchitectureDemo\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Devendra.Choudhary\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -1334,8 +1334,8 @@
             "C:\\Self Learning\\Sample4\\WebAPIWithSwagger\\CleanArchitectureDemo.Application\\CleanArchitectureDemo.Application.csproj": {
               "projectPath": "C:\\Self Learning\\Sample4\\WebAPIWithSwagger\\CleanArchitectureDemo.Application\\CleanArchitectureDemo.Application.csproj"
             },
-            "C:\\Self Learning\\Sample4\\WebAPIWithSwagger\\CleanArchitectureDemo.Infrastructure\\CleanArchitectureDemo.Infrastructure.csproj": {
-              "projectPath": "C:\\Self Learning\\Sample4\\WebAPIWithSwagger\\CleanArchitectureDemo.Infrastructure\\CleanArchitectureDemo.Infrastructure.csproj"
+            "C:\\Self Learning\\Sample4\\webapiwithswagger\\CleanArchitectureDemo.Infrastructure\\CleanArchitectureDemo.Infrastructure.csproj": {
+              "projectPath": "C:\\Self Learning\\Sample4\\webapiwithswagger\\CleanArchitectureDemo.Infrastructure\\CleanArchitectureDemo.Infrastructure.csproj"
             }
           }
         }
