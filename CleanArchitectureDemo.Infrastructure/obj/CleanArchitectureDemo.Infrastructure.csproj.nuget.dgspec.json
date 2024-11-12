@@ -1,0 +1,190 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Self Learning\\Sample4\\CleanArchitectureDemo.Infrastructure\\CleanArchitectureDemo.Infrastructure.csproj": {}
+  },
+  "projects": {
+    "C:\\Self Learning\\Sample4\\CleanArchitectureDemo.Application\\CleanArchitectureDemo.Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Self Learning\\Sample4\\CleanArchitectureDemo.Application\\CleanArchitectureDemo.Application.csproj",
+        "projectName": "CleanArchitectureDemo.Application",
+        "projectPath": "C:\\Self Learning\\Sample4\\CleanArchitectureDemo.Application\\CleanArchitectureDemo.Application.csproj",
+        "packagesPath": "C:\\Users\\Devendra.Choudhary\\.nuget\\packages\\",
+        "outputPath": "C:\\Self Learning\\Sample4\\CleanArchitectureDemo.Application\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Devendra.Choudhary\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Self Learning\\Sample4\\CleanArchitectureDemo.Domain\\CleanArchitectureDemo.Domain.csproj": {
+                "projectPath": "C:\\Self Learning\\Sample4\\CleanArchitectureDemo.Domain\\CleanArchitectureDemo.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Self Learning\\Sample4\\CleanArchitectureDemo.Domain\\CleanArchitectureDemo.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Self Learning\\Sample4\\CleanArchitectureDemo.Domain\\CleanArchitectureDemo.Domain.csproj",
+        "projectName": "CleanArchitectureDemo.Domain",
+        "projectPath": "C:\\Self Learning\\Sample4\\CleanArchitectureDemo.Domain\\CleanArchitectureDemo.Domain.csproj",
+        "packagesPath": "C:\\Users\\Devendra.Choudhary\\.nuget\\packages\\",
+        "outputPath": "C:\\Self Learning\\Sample4\\CleanArchitectureDemo.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Devendra.Choudhary\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Self Learning\\Sample4\\CleanArchitectureDemo.Infrastructure\\CleanArchitectureDemo.Infrastructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Self Learning\\Sample4\\CleanArchitectureDemo.Infrastructure\\CleanArchitectureDemo.Infrastructure.csproj",
+        "projectName": "CleanArchitectureDemo.Infrastructure",
+        "projectPath": "C:\\Self Learning\\Sample4\\CleanArchitectureDemo.Infrastructure\\CleanArchitectureDemo.Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\Devendra.Choudhary\\.nuget\\packages\\",
+        "outputPath": "C:\\Self Learning\\Sample4\\CleanArchitectureDemo.Infrastructure\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Devendra.Choudhary\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Self Learning\\Sample4\\CleanArchitectureDemo.Application\\CleanArchitectureDemo.Application.csproj": {
+                "projectPath": "C:\\Self Learning\\Sample4\\CleanArchitectureDemo.Application\\CleanArchitectureDemo.Application.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
